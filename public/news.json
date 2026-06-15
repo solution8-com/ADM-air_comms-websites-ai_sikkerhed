@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-06-12T18:26:21.093Z",
+  "generatedAt": "2026-06-15T12:25:08.560Z",
   "items": [
+    {
+      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
+      "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+      "source": "The Hacker News",
+      "date": "2026-06-12T18:59:32.000Z"
+    },
     {
       "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
       "link": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
@@ -42,12 +48,6 @@
       "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
       "source": "The Hacker News",
       "date": "2026-06-10T07:37:59.000Z"
-    },
-    {
-      "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
-      "link": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
-      "source": "The Hacker News",
-      "date": "2026-06-09T17:03:58.000Z"
     }
   ]
 }
