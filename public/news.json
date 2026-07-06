@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-06-29T11:08:14.084Z",
+  "generatedAt": "2026-07-06T10:45:10.562Z",
   "items": [
     {
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "link": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
+      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
+      "link": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
       "source": "The Hacker News",
-      "date": "2026-06-27T12:19:37.000Z"
+      "date": "2026-07-06T06:33:56.000Z"
     },
     {
-      "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
-      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+      "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
       "source": "The Hacker News",
-      "date": "2026-06-25T12:24:43.000Z"
+      "date": "2026-07-02T15:24:18.000Z"
     },
     {
-      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
-      "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+      "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
+      "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
       "source": "The Hacker News",
-      "date": "2026-06-25T09:23:03.000Z"
+      "date": "2026-07-02T11:30:00.000Z"
     },
     {
-      "title": "Dawn of the Apex Agentic Adversary",
-      "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
       "source": "The Hacker News",
-      "date": "2026-06-24T11:30:00.000Z"
+      "date": "2026-07-02T09:13:13.000Z"
     },
     {
-      "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
-      "link": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+      "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
       "source": "The Hacker News",
-      "date": "2026-06-23T15:16:43.000Z"
+      "date": "2026-07-01T14:42:54.000Z"
     },
     {
-      "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
-      "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+      "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android",
+      "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
       "source": "The Hacker News",
-      "date": "2026-06-23T11:30:00.000Z"
+      "date": "2026-07-01T12:59:19.000Z"
     },
     {
-      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-      "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+      "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
       "source": "The Hacker News",
-      "date": "2026-06-23T03:56:58.000Z"
+      "date": "2026-07-01T07:20:51.000Z"
     },
     {
-      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-      "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+      "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
       "source": "The Hacker News",
-      "date": "2026-06-22T16:13:28.000Z"
+      "date": "2026-07-01T06:46:17.000Z"
     }
   ]
 }
