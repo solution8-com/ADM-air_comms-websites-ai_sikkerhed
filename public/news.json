@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-07-06T10:45:10.562Z",
+  "generatedAt": "2026-07-14T02:59:29.091Z",
   "items": [
     {
-      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
-      "link": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+      "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
       "source": "The Hacker News",
-      "date": "2026-07-06T06:33:56.000Z"
+      "date": "2026-07-13T15:05:57.000Z"
     },
     {
-      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+      "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
       "source": "The Hacker News",
-      "date": "2026-07-02T15:24:18.000Z"
+      "date": "2026-07-13T13:49:48.000Z"
     },
     {
-      "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
-      "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+      "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
       "source": "The Hacker News",
-      "date": "2026-07-02T11:30:00.000Z"
+      "date": "2026-07-13T11:54:46.000Z"
     },
     {
-      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+      "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
       "source": "The Hacker News",
-      "date": "2026-07-02T09:13:13.000Z"
+      "date": "2026-07-13T11:37:05.000Z"
     },
     {
-      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
-      "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+      "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
       "source": "The Hacker News",
-      "date": "2026-07-01T14:42:54.000Z"
+      "date": "2026-07-13T11:02:33.000Z"
     },
     {
-      "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android",
-      "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
+      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
+      "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
       "source": "The Hacker News",
-      "date": "2026-07-01T12:59:19.000Z"
+      "date": "2026-07-09T12:26:58.000Z"
     },
     {
-      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
-      "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
+      "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
       "source": "The Hacker News",
-      "date": "2026-07-01T07:20:51.000Z"
+      "date": "2026-07-09T07:21:06.000Z"
     },
     {
-      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
-      "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+      "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
       "source": "The Hacker News",
-      "date": "2026-07-01T06:46:17.000Z"
+      "date": "2026-07-09T05:15:02.000Z"
     }
   ]
 }
