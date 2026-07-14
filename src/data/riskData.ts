@@ -39,7 +39,7 @@ export interface Pillar {
   riskCount: number;
 }
 
-// MIT AI Risk Repository v4 (released 4 Dec 2025) — 1700+ risks across 9 frameworks, including agentic AI
+// MIT AI Risk Repository v4 (released 4 Dec 2025) - 1700+ risks across 9 frameworks, including agentic AI
 const MIT_SPREADSHEET = "https://airisk.mit.edu/";
 const MIT_PREPRINT = "https://doi.org/10.48550/arXiv.2408.12622";
 
@@ -171,14 +171,14 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "eu-ai-act-security-mapping",
         name: "EU AI Act ↔ sikkerheds-frameworks (Art 9/15)",
-        description: "EU AI Act Art 9 (risikostyring) og Art 15 (nøjagtighed, robusthed, cybersikkerhed) er de to artikler der mest direkte stiller sikkerhedskrav til høj-risiko AI-systemer. De mapper til NIST AI RMF MS-2.5/2.6/2.7 og ISO/IEC 42001 — som igen udvider ISO 27001. Fulde bøder (op til €35M / 7% omsætning) gælder fra 2. august 2026.",
+        description: "EU AI Act Art 9 (risikostyring) og Art 15 (nøjagtighed, robusthed, cybersikkerhed) er de to artikler der mest direkte stiller sikkerhedskrav til høj-risiko AI-systemer. De mapper til NIST AI RMF MS-2.5/2.6/2.7 og ISO/IEC 42001 - som igen udvider ISO 27001. Fulde bøder (op til €35M / 7% omsætning) gælder fra 2. august 2026.",
         severity: "medium",
         mitigations: [
           "Byg en kontrol-matrix: EU AI Act Art 9/15 → NIST AI RMF MS-2.5/2.6/2.7 → ISO 42001 → eksisterende ISO 27001/SOC 2-kontroller. Genbrug eksisterende evidens hvor muligt",
           "Brug OWASP LLM Top 10 (2025) som teknisk test-katalog for Art 15-krav om robusthed og cybersikkerhed",
           "Dokumentér adversarial testing, model-evasion og post-market monitoring (Art 72) som del af jeres ISO 27001 ISMS",
           "Map MIT AI Risk Repository-kategorier til jeres risikoregister så identifikation er reviderbar",
-          "Udpeg én accountable rolle (AI risk owner) der bygger bro mellem CISO, DPO og produkt — Art 9 forventer livscyklus-ejerskab",
+          "Udpeg én accountable rolle (AI risk owner) der bygger bro mellem CISO, DPO og produkt - Art 9 forventer livscyklus-ejerskab",
         ],
         mitLinks: [
           { label: "EU AI Act Art 15 (robusthed & cybersikkerhed)", url: EU_AIACT_ART15, source: "EU" },
@@ -189,7 +189,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Socioeconomic Domain (6.5)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Socioeconomic Domain (6.5)", url: MIT_SPREADSHEET, source: "MIT" },
       { label: "OWASP Governance Checklist", url: "https://genai.owasp.org/resource/llm-applications-cybersecurity-and-governance-checklist-english/", source: "OWASP" },
       { label: "OWASP State of Agentic AI Security & Governance v1.0", url: "/docs/State-of-Agentic-AI-Security-Governance.pdf", source: "OWASP" },
     ],
@@ -248,7 +248,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Competitive Dynamics (6.4)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Competitive Dynamics (6.4)", url: MIT_SPREADSHEET, source: "MIT" },
     ],
   },
   {
@@ -290,7 +290,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Power Centralization (6.1)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Power Centralization (6.1)", url: MIT_SPREADSHEET, source: "MIT" },
     ],
   },
   {
@@ -317,7 +317,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Environmental Harm (6.6)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Environmental Harm (6.6)", url: MIT_SPREADSHEET, source: "MIT" },
     ],
   },
 
@@ -382,7 +382,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Human-Computer Interaction (5)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Human-Computer Interaction (5)", url: MIT_SPREADSHEET, source: "MIT" },
       { label: "OWASP GenAI Security Introduction", url: "https://genai.owasp.org/introduction-genai-security-project/", source: "OWASP" },
       { label: "OWASP Agentic AI Threats & Mitigations v1.1", url: "/docs/Agentic-AI-Threats-and-Mitigations.pdf", source: "OWASP" },
     ],
@@ -426,7 +426,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Socioeconomic Domain (6.2, 6.3)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Socioeconomic Domain (6.2, 6.3)", url: MIT_SPREADSHEET, source: "MIT" },
     ],
   },
   {
@@ -489,10 +489,10 @@ export const riskCategories: RiskCategory[] = [
         severity: "critical",
         mitigations: [
           "Kræv flertrins-godkendelse for handlinger med høj konsekvens eller følsomhed",
-          "Implementér adaptiv tillidskalibrering — justér agentautonomi baseret på kontekstuel risikoscoring",
+          "Implementér adaptiv tillidskalibrering - justér agentautonomi baseret på kontekstuel risikoscoring",
           "Markér visuelt højrisikoanbefalinger med UI-signaler (røde kanter, bannere, bekræftelsesdialoger)",
           "Vedhæft verificerbar metadata (kilde-ID'er, tidsstempler, integritetshashes) til alle agentanbefalinger",
-          "Adskil forhåndsvisning fra effekt — blokér tilstandsændrende kald under forhåndsvisningskontekst",
+          "Adskil forhåndsvisning fra effekt - blokér tilstandsændrende kald under forhåndsvisningskontekst",
           "Uddan personale løbende i manipulationsmønstre og agentbegrænsninger",
         ],
         mitLinks: [
@@ -503,7 +503,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Human-Computer Interaction (5.1, 5.2)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Human-Computer Interaction (5.1, 5.2)", url: MIT_SPREADSHEET, source: "MIT" },
       { label: "OWASP ASI09: Human-Agent Trust Exploitation", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
     ],
   },
@@ -546,7 +546,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Discrimination & Toxicity (1)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Discrimination & Toxicity (1)", url: MIT_SPREADSHEET, source: "MIT" },
     ],
   },
 
@@ -577,7 +577,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "indirect-injection",
         name: "Indirekte prompt injection",
-        description: "Ondsindede instruktioner indlejret i eksterne datakilder, som LLM'en behandler, hvilket fører til utilsigtede handlinger. Den definitive 2025-case er EchoLeak (CVE-2025-32711, M365 Copilot) — zero-click via e-mail der aldrig blev åbnet, eksfiltrerede tenant-data via auto-fetched billeder.",
+        description: "Ondsindede instruktioner indlejret i eksterne datakilder, som LLM'en behandler, hvilket fører til utilsigtede handlinger. Den definitive 2025-case er EchoLeak (CVE-2025-32711, M365 Copilot) - zero-click via e-mail der aldrig blev åbnet, eksfiltrerede tenant-data via auto-fetched billeder.",
         severity: "critical",
         mitigations: [
           "Validér og sanitér alle eksterne datakilder",
@@ -594,10 +594,10 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "agent-goal-hijack",
         name: "Agent Goal Hijack (ASI01)",
-        description: "Angribere manipulerer en agents mål, opgavevalg eller beslutningsveje gennem promptbaseret manipulation, vildledende værktøjsoutput, ondsindede artefakter, forfalskede agent-til-agent-beskeder eller forgiftet ekstern data — og omdirigerer dermed flertrins autonom adfærd mod utilsigtede eller skadelige resultater.",
+        description: "Angribere manipulerer en agents mål, opgavevalg eller beslutningsveje gennem promptbaseret manipulation, vildledende værktøjsoutput, ondsindede artefakter, forfalskede agent-til-agent-beskeder eller forgiftet ekstern data - og omdirigerer dermed flertrins autonom adfærd mod utilsigtede eller skadelige resultater.",
         severity: "critical",
         mitigations: [
-          "Behandl alle naturligsprogs-input som ubetroede — rut gennem inputvalidering og prompt injection-sikring før de påvirker målvalg eller værktøjskald",
+          "Behandl alle naturligsprogs-input som ubetroede - rut gennem inputvalidering og prompt injection-sikring før de påvirker målvalg eller værktøjskald",
           "Håndhæv mindste-privilegium for agentværktøjer og kræv menneskelig godkendelse for handlinger med høj konsekvens eller målændringer",
           "Definér og lås agentens system-prompts så målprioriteter er eksplicitte og reviderbare",
           "Validér både brugerens og agentens hensigt før eksekvering af målændrende handlinger",
@@ -612,12 +612,12 @@ export const riskCategories: RiskCategory[] = [
       },
       {
         id: "echoleak-zero-click",
-        name: "EchoLeak — zero-click prompt injection (CVE-2025-32711)",
-        description: "Verdens første dokumenterede zero-click prompt injection i et produktions-LLM. CVSS 9.3, opdaget af Aim Labs og fixed af Microsoft 11. juni 2025. En enkelt e-mail (aldrig åbnet af offeret) kunne få M365 Copilot til at exfiltrere tenant-data næste gang brugeren stillede et relateret spørgsmål. Patched server-side; ingen kundehandling krævet, ingen kendt udnyttelse i felten — men det er den nye baseline trusselmodel for RAG-baserede assistenter.",
+        name: "EchoLeak - zero-click prompt injection (CVE-2025-32711)",
+        description: "Verdens første dokumenterede zero-click prompt injection i et produktions-LLM. CVSS 9.3, opdaget af Aim Labs og fixed af Microsoft 11. juni 2025. En enkelt e-mail (aldrig åbnet af offeret) kunne få M365 Copilot til at exfiltrere tenant-data næste gang brugeren stillede et relateret spørgsmål. Patched server-side; ingen kundehandling krævet, ingen kendt udnyttelse i felten - men det er den nye baseline trusselmodel for RAG-baserede assistenter.",
         severity: "critical",
         mitigations: [
           "Begrænse eller deaktivere ekstern e-mail som grounding-kilde for Copilot hvor det er forretningsmæssigt forsvarligt",
-          "Håndhæv striks outbound CSP/allowlist på AI-agenter — inkluderet Teams/SharePoint proxy-domæner — og audit hvad jeres tenant whitelister",
+          "Håndhæv striks outbound CSP/allowlist på AI-agenter - inkluderet Teams/SharePoint proxy-domæner - og audit hvad jeres tenant whitelister",
           "Behandl alt hentet indhold (e-mail, SharePoint, web) som ubetroet input; deploy en prompt-injection-classifier FORAN, ikke kun INDE i modellen",
           "Log og alarmér ved Copilot outbound image/link-hentninger til ikke-Microsoft-domæner",
           "Tilføj DLP egress-inspektion mellem Copilot og eksterne endpoints; blokér markdown reference-link rendering hvor muligt",
@@ -631,10 +631,10 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM01: Prompt Injection", url: "https://genai.owasp.org/llmrisk/llm01-prompt-injection/", source: "OWASP" },
-      { label: "MIT AI Risk Repository – Security Vulnerabilities (2.2)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "OWASP Top 10 - LLM01: Prompt Injection", url: "https://genai.owasp.org/llmrisk/llm01-prompt-injection/", source: "OWASP" },
+      { label: "MIT AI Risk Repository - Security Vulnerabilities (2.2)", url: MIT_SPREADSHEET, source: "MIT" },
       { label: "OWASP ASI01: Agent Goal Hijack", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
-      { label: "CVE-2025-32711 — EchoLeak (Microsoft 365 Copilot)", url: CVE_ECHOLEAK, source: "CVE" },
+      { label: "CVE-2025-32711 - EchoLeak (Microsoft 365 Copilot)", url: CVE_ECHOLEAK, source: "CVE" },
     ],
   },
   {
@@ -683,7 +683,7 @@ export const riskCategories: RiskCategory[] = [
         mitigations: [
           "Anvend per-API-key og per-IP rate limiting plus anomali-detektion på query-distribution (entropi, emne-spredning)",
           "Indlejr kryptografiske output-watermarks for proprietære modeller; scan periodisk konkurrent-output for mærker",
-          "Begræns adgang til top-k logits / log-probabilities — de accelererer distillation massivt",
+          "Begræns adgang til top-k logits / log-probabilities - de accelererer distillation massivt",
           "Brug proof-of-work eller graduated pricing for at hæve ekstraktions-omkostning uden at skade legitime brugere",
           "Behandl system-prompts som hemmeligheder: minimér deres informationsindhold, defense-test mod prompt-leak før launch",
         ],
@@ -695,8 +695,8 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM02: Sensitive Information Disclosure", url: "https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/", source: "OWASP" },
-      { label: "MIT AI Risk Repository – Privacy (2.1)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "OWASP Top 10 - LLM02: Sensitive Information Disclosure", url: "https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/", source: "OWASP" },
+      { label: "MIT AI Risk Repository - Privacy (2.1)", url: MIT_SPREADSHEET, source: "MIT" },
       { label: "SIGKDD 2025 Model Extraction Survey", url: MODEL_EXTRACTION_SURVEY, source: "Research" },
     ],
   },
@@ -741,7 +741,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "agentic-supply-chain",
         name: "Agentiske forsyningskædesårbarheder (ASI04)",
-        description: "Runtime-sammensætning af agenter, værktøjer og MCP-servere fra tredjeparter, der introducerer forgiftede prompt-skabeloner, tool-descriptor injection, typosquattede endpoints, kompromitterede MCP-/registry-servere og agent-in-the-middle-angreb via forfalskede agent cards. Konkret 2026-case: LiteLLM (populært AI-gateway-bibliotek) blev kompromitteret via PyPI i marts 2026 — viser at proxy/gateway-laget nu er et angrebsoverflade på linje med modellen selv.",
+        description: "Runtime-sammensætning af agenter, værktøjer og MCP-servere fra tredjeparter, der introducerer forgiftede prompt-skabeloner, tool-descriptor injection, typosquattede endpoints, kompromitterede MCP-/registry-servere og agent-in-the-middle-angreb via forfalskede agent cards. Konkret 2026-case: LiteLLM (populært AI-gateway-bibliotek) blev kompromitteret via PyPI i marts 2026 - viser at proxy/gateway-laget nu er et angrebsoverflade på linje med modellen selv.",
         severity: "critical",
         mitigations: [
           "Signér og attestér manifester, prompts og værktøjsdefinitioner; kræv SBOMs og AIBOMs med periodiske attesteringer",
@@ -761,7 +761,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM03: Supply Chain", url: "https://genai.owasp.org/llmrisk/llm032025-supply-chain/", source: "OWASP" },
+      { label: "OWASP Top 10 - LLM03: Supply Chain", url: "https://genai.owasp.org/llmrisk/llm032025-supply-chain/", source: "OWASP" },
       { label: "OWASP ASI04: Agentic Supply Chain Vulnerabilities", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
       { label: "OWASP MCP Servers Security Cheat Sheet v1.0", url: "/docs/MCP-Servers-Security-CheatSheet.pdf", source: "OWASP" },
       { label: "Trend Micro: LiteLLM supply-chain (Mar 2026)", url: LITELLM_INCIDENT, source: "Research" },
@@ -791,7 +791,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM04: Data & Model Poisoning", url: "https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/", source: "OWASP" },
+      { label: "OWASP Top 10 - LLM04: Data & Model Poisoning", url: "https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/", source: "OWASP" },
     ],
   },
   {
@@ -819,7 +819,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "unexpected-rce",
         name: "Uventet kodeeksekvering / RCE (ASI05)",
-        description: "Agentiske systemer der genererer og eksekverer kode under runtime, som omgår traditionelle sikkerhedskontroller — via prompt injection, kodehallucination, shell-kommandoer, usikker deserialisering eller multi-tool-kædeudnyttelse, der fører til vært-kompromittering eller sandkasseflugt.",
+        description: "Agentiske systemer der genererer og eksekverer kode under runtime, som omgår traditionelle sikkerhedskontroller - via prompt injection, kodehallucination, shell-kommandoer, usikker deserialisering eller multi-tool-kædeudnyttelse, der fører til vært-kompromittering eller sandkasseflugt.",
         severity: "critical",
         mitigations: [
           "Forbyd eval() i produktionsagenter; kræv sikre fortolkere med taint-tracking på genereret kode",
@@ -838,13 +838,13 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "agentic-ide-rce",
         name: "Agentic IDE RCE (CVE-2025-53773)",
-        description: "CVSS 7.8 prompt-injection-til-RCE i GitHub Copilot i Visual Studio (Johann Rehberger, juni 2025; patched i august Patch Tuesday). Et forgiftet README, dependency eller GitHub-issue kunne stille instruktioner der fik Copilot til selv at skrive 'chat.tools.autoApprove: true' i .vscode/settings.json — hvorefter agenten kunne køre arbitrære shell-kommandoer og redigere filer uden bekræftelse. En wormable variant ('ZombAI') propagerer ved at skrive samme injection i andre repos udvikleren rører.",
+        description: "CVSS 7.8 prompt-injection-til-RCE i GitHub Copilot i Visual Studio (Johann Rehberger, juni 2025; patched i august Patch Tuesday). Et forgiftet README, dependency eller GitHub-issue kunne stille instruktioner der fik Copilot til selv at skrive 'chat.tools.autoApprove: true' i .vscode/settings.json - hvorefter agenten kunne køre arbitrære shell-kommandoer og redigere filer uden bekræftelse. En wormable variant ('ZombAI') propagerer ved at skrive samme injection i andre repos udvikleren rører.",
         severity: "high",
         mitigations: [
           "Patch Visual Studio til 17.14.12+ og audit .vscode/settings.json på tværs af repos for 'chat.tools.autoApprove'",
           "Deaktivér eksperimental auto-approve / YOLO mode på org policy-niveau; kræv human-in-the-loop for shell- og file-write-værktøjer",
           "Sandbox Copilot/agent-eksekvering i dev containers uden host-shell eller credential-adgang",
-          "Behandl 3.-parts repos, READMEs og issues som ubetroet input — review før de åbnes med agent aktiveret",
+          "Behandl 3.-parts repos, READMEs og issues som ubetroet input - review før de åbnes med agent aktiveret",
           "Overvåg for pludselige settings-fil-commits fra agentic IDE-sessioner",
         ],
         mitLinks: [
@@ -856,9 +856,9 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM05: Improper Output Handling", url: "https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/", source: "OWASP" },
+      { label: "OWASP Top 10 - LLM05: Improper Output Handling", url: "https://genai.owasp.org/llmrisk/llm052025-improper-output-handling/", source: "OWASP" },
       { label: "OWASP ASI05: Unexpected Code Execution (RCE)", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
-      { label: "CVE-2025-53773 — GitHub Copilot RCE i Visual Studio", url: CVE_COPILOT_RCE, source: "CVE" },
+      { label: "CVE-2025-53773 - GitHub Copilot RCE i Visual Studio", url: CVE_COPILOT_RCE, source: "CVE" },
     ],
   },
   {
@@ -886,7 +886,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "tool-misuse",
         name: "Værktøjsmisbrug & overdreven autonomi (ASI02)",
-        description: "Agenter der kalder værktøjer med forkerte eller ondsindede parametre, kæder værktøjskald på uventede måder, eller handler uden tilstrækkelig menneskelig godkendelse — forstærket af vage tool-beskrivelser, manglende input-skema-håndhævelse og utilstrækkelige guardrails.",
+        description: "Agenter der kalder værktøjer med forkerte eller ondsindede parametre, kæder værktøjskald på uventede måder, eller handler uden tilstrækkelig menneskelig godkendelse - forstærket af vage tool-beskrivelser, manglende input-skema-håndhævelse og utilstrækkelige guardrails.",
         severity: "critical",
         mitigations: [
           "Håndhæv streng input-validering og schema-tjek for alle værktøjskald med typede, begrænsede parametre",
@@ -905,7 +905,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "identity-privilege-abuse",
         name: "Identitets- & privilegiemisbrug (ASI03)",
-        description: "Agenter der eskalerer privilegier, misbruger delegerede identiteter, handler ud over autoriseret scope, eller udnytter forvirringsangreb — herunder token-tyveri, delegerings-loops, kontekstlæk og utilstrækkelig adskillelse af bruger- vs. agenttilladelser.",
+        description: "Agenter der eskalerer privilegier, misbruger delegerede identiteter, handler ud over autoriseret scope, eller udnytter forvirringsangreb - herunder token-tyveri, delegerings-loops, kontekstlæk og utilstrækkelig adskillelse af bruger- vs. agenttilladelser.",
         severity: "critical",
         mitigations: [
           "Håndhæv mindste-privilegium med korttidsgyldige, scope-begrænsede tokens og regelmæssige rotationer",
@@ -923,7 +923,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM06: Excessive Agency", url: "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/", source: "OWASP" },
+      { label: "OWASP Top 10 - LLM06: Excessive Agency", url: "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/", source: "OWASP" },
       { label: "OWASP ASI02: Tool Misuse & Excessive Autonomy", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
       { label: "OWASP ASI03: Identity & Privilege Abuse", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
     ],
@@ -952,7 +952,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM07: System Prompt Leakage", url: "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/", source: "OWASP" },
+      { label: "OWASP Top 10 - LLM07: System Prompt Leakage", url: "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/", source: "OWASP" },
     ],
   },
   {
@@ -960,7 +960,7 @@ export const riskCategories: RiskCategory[] = [
     name: "Vektor-, embedding- & hukommelsesforgiftning",
     pillar: "development",
     icon: "🧮",
-    description: "Sikkerhedsrisici i vektordatabaser, embedding-systemer og agenthukommelse brugt til RAG — herunder forgiftning, uautoriseret adgang og vedvarende kontekstkorruption der spreder sig på tværs af sessioner (ASI06).",
+    description: "Sikkerhedsrisici i vektordatabaser, embedding-systemer og agenthukommelse brugt til RAG - herunder forgiftning, uautoriseret adgang og vedvarende kontekstkorruption der spreder sig på tværs af sessioner (ASI06).",
     subcategories: [
       {
         id: "vector-poisoning",
@@ -980,7 +980,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "memory-context-poisoning",
         name: "Hukommelses- & kontekstforgiftning (ASI06)",
-        description: "Modstandere korrumperer agenthukommelse, samtalehistorik eller hentbar kontekst med ondsindede data — hvilket forårsager at fremtidig ræsonnering, planlægning eller værktøjsbrug bliver forudindtaget eller understøtter eksfiltrering. Inkluderer RAG-forgiftning, delt kontekstkontaminering, kontekstvindue-manipulation, langtidshukommelsesdrift og krydsagent-udbredelse.",
+        description: "Modstandere korrumperer agenthukommelse, samtalehistorik eller hentbar kontekst med ondsindede data - hvilket forårsager at fremtidig ræsonnering, planlægning eller værktøjsbrug bliver forudindtaget eller understøtter eksfiltrering. Inkluderer RAG-forgiftning, delt kontekstkontaminering, kontekstvindue-manipulation, langtidshukommelsesdrift og krydsagent-udbredelse.",
         severity: "critical",
         mitigations: [
           "Kryptér hukommelse under transport og ved lagring; håndhæv mindste-privilegium-adgang til hukommelseslagre",
@@ -994,15 +994,15 @@ export const riskCategories: RiskCategory[] = [
         mitLinks: [
           { label: "OWASP ASI06: Memory & Context Poisoning", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
           { label: "OWASP: Agentic AI Threats (T1 Memory Poisoning)", url: "/docs/Agentic-AI-Threats-and-Mitigations.pdf", source: "OWASP" },
-          { label: "Rehberger: SPAIWARE — ChatGPT memory persistence", url: REHBERGER_SPAIWARE, source: "Research" },
-          { label: "MemoryGraft — long-term memory exploitation (2026)", url: MEMORYGRAFT, source: "Research" },
+          { label: "Rehberger: SPAIWARE - ChatGPT memory persistence", url: REHBERGER_SPAIWARE, source: "Research" },
+          { label: "MemoryGraft - long-term memory exploitation (2026)", url: MEMORYGRAFT, source: "Research" },
         ],
         tags: ["agentisk", "hukommelsesforgiftning", "RAG", "kontekst", "krydsagent", "persistence"],
       },
       {
         id: "cross-user-contamination",
         name: "Cross-user jailbreak persistence via shared memory",
-        description: "Jailbreaks og ondsindede instruktioner kan persistere på tværs af sessioner — og bløde mellem brugere — når en LLM bruger delt langtidshukommelse eller delt retrieval-state. Rehbergers SPAIWARE-arbejde (ChatGPT memory, 2024) viste at en indirekte prompt-injection via billede, Google Doc eller connected app kan skrive angriber-instruktioner i ChatGPT's persistente hukommelse, der fortsætter med at exfiltrere data i hver efterfølgende samtale. Nyere arbejde (MemoryGraft, AgentPoison) udvider dette til RAG-agenter.",
+        description: "Jailbreaks og ondsindede instruktioner kan persistere på tværs af sessioner - og bløde mellem brugere - når en LLM bruger delt langtidshukommelse eller delt retrieval-state. Rehbergers SPAIWARE-arbejde (ChatGPT memory, 2024) viste at en indirekte prompt-injection via billede, Google Doc eller connected app kan skrive angriber-instruktioner i ChatGPT's persistente hukommelse, der fortsætter med at exfiltrere data i hver efterfølgende samtale. Nyere arbejde (MemoryGraft, AgentPoison) udvider dette til RAG-agenter.",
         severity: "high",
         mitigations: [
           "Deaktivér long-term memory for agenter der håndterer følsomme data, eller scope hukommelse stramt per opgave",
@@ -1020,7 +1020,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM08: Vector & Embedding Weaknesses", url: "https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/", source: "OWASP" },
+      { label: "OWASP Top 10 - LLM08: Vector & Embedding Weaknesses", url: "https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/", source: "OWASP" },
       { label: "OWASP ASI06: Memory & Context Poisoning", url: "/docs/OWASP-Top-10-Agentic-Applications-2026.pdf", source: "OWASP" },
       { label: "Rehberger: SPAIWARE / Memory persistence research", url: REHBERGER_SPAIWARE, source: "Research" },
     ],
@@ -1065,8 +1065,8 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM09: Misinformation", url: "https://genai.owasp.org/llmrisk/llm092025-misinformation/", source: "OWASP" },
-      { label: "MIT AI Risk Repository – Misinformation (3)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "OWASP Top 10 - LLM09: Misinformation", url: "https://genai.owasp.org/llmrisk/llm092025-misinformation/", source: "OWASP" },
+      { label: "MIT AI Risk Repository - Misinformation (3)", url: MIT_SPREADSHEET, source: "MIT" },
     ],
   },
   {
@@ -1093,7 +1093,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "OWASP Top 10 – LLM10: Unbounded Consumption", url: "https://genai.owasp.org/llmrisk/llm102025-unbounded-consumption/", source: "OWASP" },
+      { label: "OWASP Top 10 - LLM10: Unbounded Consumption", url: "https://genai.owasp.org/llmrisk/llm102025-unbounded-consumption/", source: "OWASP" },
     ],
   },
   {
@@ -1151,7 +1151,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – Malicious Actors (4)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - Malicious Actors (4)", url: MIT_SPREADSHEET, source: "MIT" },
       { label: "OWASP: AI Red Teaming Initiative", url: "https://genai.owasp.org/initiatives/#ai-redteaming", source: "OWASP" },
     ],
   },
@@ -1165,7 +1165,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "inter-agent-comms",
         name: "Usikker inter-agent-kommunikation (ASI07)",
-        description: "Udveksling mellem agenter der mangler korrekt autentifikation, integritet eller semantisk validering — muliggør aflytning, forfalskning, beskedmanipulation, replay-angreb, protokolnedgradering og metadataanalyse til adfærdsprofilering.",
+        description: "Udveksling mellem agenter der mangler korrekt autentifikation, integritet eller semantisk validering - muliggør aflytning, forfalskning, beskedmanipulation, replay-angreb, protokolnedgradering og metadataanalyse til adfærdsprofilering.",
         severity: "critical",
         mitigations: [
           "Brug end-to-end-kryptering med per-agent-credentials og gensidig autentifikation (PKI, mTLS)",
@@ -1186,7 +1186,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "cascading-failures",
         name: "Kaskaderende fejl (ASI08)",
-        description: "En enkelt fejl (hallucination, ondsindet input, korrupt værktøj eller forgiftet hukommelse) der spreder sig på tværs af autonome agenter og forværres til systemomspændende skade — herunder planner-executor-kobling, feedback-loop-forstærkning, krydsagent-kaskader og governance-drift.",
+        description: "En enkelt fejl (hallucination, ondsindet input, korrupt værktøj eller forgiftet hukommelse) der spreder sig på tværs af autonome agenter og forværres til systemomspændende skade - herunder planner-executor-kobling, feedback-loop-forstærkning, krydsagent-kaskader og governance-drift.",
         severity: "critical",
         mitigations: [
           "Design med zero-trust-fejltolerance der antager fejl i enhver LLM- eller agentisk komponent",
@@ -1206,7 +1206,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "rogue-agents",
         name: "Slyngel-agenter (ASI10)",
-        description: "Ondsindede eller kompromitterede AI-agenter der afviger fra tiltænkt funktion og handler skadeligt eller bedragerisk inden for multi-agent-økosystemer — herunder måldrift, workflow-kapring, agentsammensvægtelse, selvreplikation og belønningshacking.",
+        description: "Ondsindede eller kompromitterede AI-agenter der afviger fra tiltænkt funktion og handler skadeligt eller bedragerisk inden for multi-agent-økosystemer - herunder måldrift, workflow-kapring, agentsammensvægtelse, selvreplikation og belønningshacking.",
         severity: "critical",
         mitigations: [
           "Vedligehold omfattende, uforanderlige og signerede auditlogs af alle agenthandlinger og inter-agent-kommunikation",
@@ -1235,7 +1235,7 @@ export const riskCategories: RiskCategory[] = [
     name: "MCP- & protokolsikkerhed",
     pillar: "development",
     icon: "🔌",
-    description: "Sikkerhedsrisici specifikke for Model Context Protocol (MCP) og agentiske kommunikationsprotokoller — herunder tool poisoning, rug pull-angreb, prompt injection via værktøjer, hukommelsesforgiftning, værktøjsinterferens og usikker serveropdagelse.",
+    description: "Sikkerhedsrisici specifikke for Model Context Protocol (MCP) og agentiske kommunikationsprotokoller - herunder tool poisoning, rug pull-angreb, prompt injection via værktøjer, hukommelsesforgiftning, værktøjsinterferens og usikker serveropdagelse.",
     subcategories: [
       {
         id: "tool-poisoning",
@@ -1257,7 +1257,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "mcp-server-discovery",
         name: "Usikker MCP-serveropdagelse & autentifikation",
-        description: "Tilslutning til ubetroede eller kompromitterede MCP-servere, manglende korrekt autentifikation/autorisation og fejl i verifikation af serveridentitet — hvilket fører til datatyveri, ondsindet kodeeksekvering og systemsabotage.",
+        description: "Tilslutning til ubetroede eller kompromitterede MCP-servere, manglende korrekt autentifikation/autorisation og fejl i verifikation af serveridentitet - hvilket fører til datatyveri, ondsindet kodeeksekvering og systemsabotage.",
         severity: "high",
         mitigations: [
           "Tilslut kun til servere fra et betroet register; brug IP-hvidlister og netværksisolering",
@@ -1292,7 +1292,7 @@ export const riskCategories: RiskCategory[] = [
       {
         id: "a2a-protocol-risks",
         name: "A2A-protokol-eksponering (Google Agent2Agent)",
-        description: "Google's A2A-protokol (lanceret april 2025, nu under Linux Foundation, 150+ partnere) er den nye standard for agent-til-agent-kommunikation. 2025 trusselsmodeller og akademiske PoC'er identificerer agent-card forgery, capability spoofing, task replay, tool-shadowing og cross-agent prompt injection — med rapporterede attack success rates på 60-86% mod uhærdede deployments. Endnu ingen bekræftede in-the-wild brud, men trusselmodellen er reel.",
+        description: "Google's A2A-protokol (lanceret april 2025, nu under Linux Foundation, 150+ partnere) er den nye standard for agent-til-agent-kommunikation. 2025 trusselsmodeller og akademiske PoC'er identificerer agent-card forgery, capability spoofing, task replay, tool-shadowing og cross-agent prompt injection - med rapporterede attack success rates på 60-86% mod uhærdede deployments. Endnu ingen bekræftede in-the-wild brud, men trusselmodellen er reel.",
         severity: "high",
         mitigations: [
           "Kræv signerede, kortlivede OAuth-tokens for hvert A2A-kald; afvis langlivede bearer tokens",
@@ -1356,7 +1356,7 @@ export const riskCategories: RiskCategory[] = [
       },
     ],
     sourceLinks: [
-      { label: "MIT AI Risk Repository – AI System Safety (7)", url: MIT_SPREADSHEET, source: "MIT" },
+      { label: "MIT AI Risk Repository - AI System Safety (7)", url: MIT_SPREADSHEET, source: "MIT" },
       { label: "OWASP Securing Agentic Applications Guide v1.0", url: "/docs/Securing-Agentic-Applications-Guide.pdf", source: "OWASP" },
     ],
   },
@@ -1402,7 +1402,7 @@ export const toolsMeta: ToolMeta[] = [
     title: "Risiko × adoptionsfase",
     shortPitch: "Hvilke AI-risici er akutte i netop jeres fase? 4 faser × 3 søjler med klikbare risici.",
     description:
-      "Matrix over 4 adoptionsfaser (eksperimenter → pilotering → produktion → skalering) × 3 risikosøjler, med de mest akutte risici kurateret per celle. Svarer på \"vi er i pilot — hvilke risici skal vi se på nu?\" Klik en celle for at springe direkte til risikoen.",
+      "Matrix over 4 adoptionsfaser (eksperimenter → pilotering → produktion → skalering) × 3 risikosøjler, med de mest akutte risici kurateret per celle. Svarer på \"vi er i pilot - hvilke risici skal vi se på nu?\" Klik en celle for at springe direkte til risikoen.",
     icon: "🧭",
   },
   {
@@ -1418,7 +1418,7 @@ export const toolsMeta: ToolMeta[] = [
     title: "Mitigation-modenhedsradar",
     shortPitch: "Hvor moden er jeres AI-sikkerhed? Interaktiv selvvurdering på 6 akser.",
     description:
-      "Interaktiv selvvurderings-radar på 6 akser (detection, prevention, response m.fl.) med 4 modenhedsniveauer per akse — fra ad hoc til optimeret. Få et visuelt øjebliksbillede af jeres AI-sikkerhedsmodenhed og hvor I bør investere næst.",
+      "Interaktiv selvvurderings-radar på 6 akser (detection, prevention, response m.fl.) med 4 modenhedsniveauer per akse - fra ad hoc til optimeret. Få et visuelt øjebliksbillede af jeres AI-sikkerhedsmodenhed og hvor I bør investere næst.",
     icon: "📡",
   },
 ];

@@ -23,7 +23,7 @@ const CALENDLY_URL = "https://calendly.com/ai-raadgivning_jacob/30min?month=2026
 
 // Clickable example searches shown in the empty/no-results state.
 const SEARCH_SUGGESTIONS = ["prompt injection", "agentisk", "shadow AI", "MCP", "EchoLeak", "mitigering"];
-// MailerLite form — shared with compliance temporarily; swap to a sikkerhed-specific form once created
+// MailerLite form - shared with compliance temporarily; swap to a sikkerhed-specific form once created
 const MAILERLITE_ACTION = "https://assets.mailerlite.com/jsonp/1571946/forms/189012812467536974/subscribe";
 
 type SearchResult =
@@ -245,20 +245,20 @@ const Index = () => {
     const SITE = "AI Sikkerhed";
     let title: string;
     if (isAgenticRoute) {
-      title = `Agentisk AI-sikkerhed — tværgående tema | ${SITE}`;
+      title = `Agentisk AI-sikkerhed - tværgående tema | ${SITE}`;
     } else if (isToolsRoute && selectedTool) {
-      title = `${selectedTool.title} — Værktøj | ${SITE}`;
+      title = `${selectedTool.title} - Værktøj | ${SITE}`;
     } else if (isToolsRoute) {
-      title = `Værktøjer — interaktive AI-sikkerhedsværktøjer | ${SITE}`;
+      title = `Værktøjer - interaktive AI-sikkerhedsværktøjer | ${SITE}`;
     } else if (selectedSubcategory && selectedCategory) {
-      title = `${selectedSubcategory.name} — ${selectedCategory.name} | ${SITE}`;
+      title = `${selectedSubcategory.name} - ${selectedCategory.name} | ${SITE}`;
     } else if (selectedCategory) {
-      title = `${selectedCategory.name} — ${SITE}`;
+      title = `${selectedCategory.name} - ${SITE}`;
     } else if (selectedPillar) {
       const p = pillars.find((x) => x.id === selectedPillar);
-      title = p ? `${p.name} — ${SITE}` : SITE;
+      title = p ? `${p.name} - ${SITE}` : SITE;
     } else {
-      title = "AI Sikkerhed – Praktisk overblik over AI-risici til danske virksomheder | MIT & OWASP";
+      title = "AI Sikkerhed - Praktisk overblik over AI-risici til danske virksomheder | MIT & OWASP";
     }
     document.title = title;
   }, [selectedPillar, selectedCategory, selectedSubcategory, isToolsRoute, selectedTool, isAgenticRoute]);
@@ -528,7 +528,7 @@ const Index = () => {
         )}
       </main>
 
-      {/* Newsletter + CTA strip — hide booking column on subcategory pages
+      {/* Newsletter + CTA strip - hide booking column on subcategory pages
           (they already have a contextual "Book sparring" card). */}
       <NewsletterCTA showBooking={view !== "subcategory"} />
 
@@ -566,7 +566,7 @@ function DashboardView({
           AI Risici <span className="text-primary text-glow">Overblik</span>
         </h1>
         <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-          Omfattende risikovurdering på tværs af Strategi, Mennesker og Udvikling — baseret på MIT AI Risk Repository v4 (dec 2025, 1700+ risici, 9 frameworks inkl. agentic AI), OWASP Top 10 for LLM'er 2025, OWASP Top 10 for Agentiske Applikationer 2026 og OWASP Agentic Security Initiative-guides.
+          Omfattende risikovurdering på tværs af Strategi, Mennesker og Udvikling - baseret på MIT AI Risk Repository v4 (dec 2025, 1700+ risici, 9 frameworks inkl. agentic AI), OWASP Top 10 for LLM'er 2025, OWASP Top 10 for Agentiske Applikationer 2026 og OWASP Agentic Security Initiative-guides.
         </p>
       </div>
 
@@ -585,7 +585,7 @@ function DashboardView({
         ))}
       </div>
 
-      {/* Værktøjer-sektion — alle sitets værktøjer, synlige fra dashboardet */}
+      {/* Værktøjer-sektion - alle sitets værktøjer, synlige fra dashboardet */}
       <section aria-labelledby="vaerktoejer-heading" className="mb-8">
         <div className="mb-3 flex items-baseline justify-between">
           <h2 id="vaerktoejer-heading" className="font-display text-lg font-semibold text-foreground">Interaktive værktøjer</h2>
@@ -634,7 +634,7 @@ function DashboardView({
         })}
       </div>
 
-      {/* Tværgående tema: Agentisk AI — en linse PÅ TVÆRS af de tre søjler, ikke en 4. søjle */}
+      {/* Tværgående tema: Agentisk AI - en linse PÅ TVÆRS af de tre søjler, ikke en 4. søjle */}
       <button
         onClick={onOpenAgentic}
         className="card-hover group mt-6 flex w-full items-center gap-4 rounded-xl border border-primary/30 bg-primary/5 p-5 text-left"
@@ -648,7 +648,7 @@ function DashboardView({
             Agentisk AI-sikkerhed
           </p>
           <p className="mt-1 text-sm text-muted-foreground">
-            {agenticCount} risici relateret til autonome AI-agenter — samlet på tværs af Strategi, Mennesker og Udvikling.
+            {agenticCount} risici relateret til autonome AI-agenter - samlet på tværs af Strategi, Mennesker og Udvikling.
           </p>
         </div>
         <span className="hidden shrink-0 items-center gap-1 text-sm font-medium text-primary sm:inline-flex">
@@ -752,7 +752,7 @@ function NewsFeed() {
           </a>
         ))}
       </div>
-      <p className="mt-3 text-[11px] text-muted-foreground">Kuraterede nyheder fra autoritative kilder — opdateres ugentligt.</p>
+      <p className="mt-3 text-[11px] text-muted-foreground">Kuraterede nyheder fra autoritative kilder - opdateres ugentligt.</p>
     </section>
   );
 }
@@ -854,7 +854,7 @@ function RiskAdoptionMatrix({
         <h3 className="font-display text-lg font-semibold text-foreground">Risiko × adoptionsfase</h3>
       </div>
       <p className="mb-5 text-sm text-muted-foreground">
-        Hvilke risici skal du fokusere på <em>lige nu</em>? Matrixen viser de mest akutte risici i hver fase af jeres AI-adoption — to per celle, klikbar for at læse mere.
+        Hvilke risici skal du fokusere på <em>lige nu</em>? Matrixen viser de mest akutte risici i hver fase af jeres AI-adoption - to per celle, klikbar for at læse mere.
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-xs">
@@ -935,7 +935,7 @@ const ATTACK_CHAINS: Record<string, AttackChainData> = {
       { kind: "vector", label: "Plant skjult instruktion", detail: "I et dokument der bliver RAG-indekseret, en email, et website-tag" },
       { kind: "mechanism", label: "Agent læser kilde", detail: "Agentens planning-trin behandler input som instruktion" },
       { kind: "mechanism", label: "Mål muteres", detail: "Agentens oprindelige opgave ignoreres eller subverteres" },
-      { kind: "effect", label: "Uønsket handling", detail: "Tool kald med angriberens hensigt — data-eksfil, betaling, sletning" },
+      { kind: "effect", label: "Uønsket handling", detail: "Tool kald med angriberens hensigt - data-eksfil, betaling, sletning" },
     ],
   },
   "indirect-injection": {
@@ -949,17 +949,17 @@ const ATTACK_CHAINS: Record<string, AttackChainData> = {
     ],
   },
   "rogue-agents": {
-    title: "Rogue agent — out-of-scope adfærd",
+    title: "Rogue agent - out-of-scope adfærd",
     atlasRef: "OWASP ASI10 (Rogue Agents) + MITRE ATLAS agentic 2026",
     steps: [
       { kind: "attacker", label: "Trigger", detail: "Adversarial input, drift, prompt injection eller fejl i guardrails" },
       { kind: "mechanism", label: "Agent forsøger out-of-scope", detail: "Action der ikke er på dens allowlist eller decision class" },
-      { kind: "mechanism", label: "Guardrail blokerer", detail: "Men agenten forsøger igen — gentagne forsøg eller workaround" },
+      { kind: "mechanism", label: "Guardrail blokerer", detail: "Men agenten forsøger igen - gentagne forsøg eller workaround" },
       { kind: "effect", label: "Eskalering", detail: "Uden auto-suspend opnår agenten alligevel målet eller forårsager driftforstyrrelse" },
     ],
   },
   "agentic-supply-chain": {
-    title: "Agentic supply chain — kompromitteret tool eller MCP-server",
+    title: "Agentic supply chain - kompromitteret tool eller MCP-server",
     atlasRef: "OWASP ASI04 (Supply Chain) + MITRE ATLAS AML.TA0007",
     steps: [
       { kind: "attacker", label: "Angriber", detail: "Kompromitterer et MCP-server-image, en plugin, eller en tool-leverandør" },
@@ -969,13 +969,13 @@ const ATTACK_CHAINS: Record<string, AttackChainData> = {
     ],
   },
   "tool-misuse": {
-    title: "Tool misuse — agent bruger autoriseret værktøj på uautoriseret måde",
+    title: "Tool misuse - agent bruger autoriseret værktøj på uautoriseret måde",
     atlasRef: "OWASP ASI02 (Tool Use) + MITRE ATLAS AML.T0048",
     steps: [
       { kind: "attacker", label: "Anstødssten", detail: "Prompt injection, ambivalent brugerinstruktion, eller agent-confusion" },
       { kind: "mechanism", label: "Agent har gyldig autorisation", detail: "Tool er på allowlist, scope er rigtigt, token er gyldig" },
       { kind: "mechanism", label: "Bruger til andet formål", detail: "Fx 'list files' bruges til at fingerprinte system, 'send email' til phishing-kampagne mod kolleger" },
-      { kind: "effect", label: "Skadelig handling med ren autorisationssti", detail: "Audit-log viser legitim brug — sværere at detektere uden adfærdsbaseline" },
+      { kind: "effect", label: "Skadelig handling med ren autorisationssti", detail: "Audit-log viser legitim brug - sværere at detektere uden adfærdsbaseline" },
     ],
   },
   "memory-context-poisoning": {
@@ -985,7 +985,7 @@ const ATTACK_CHAINS: Record<string, AttackChainData> = {
       { kind: "attacker", label: "Angriber", detail: "Plant falske 'memories' i agentens vector store eller conversation history" },
       { kind: "vector", label: "Persistent injection", detail: "Skadelig fact gemmes som hvis det var brugerens preference eller virksomheds-policy" },
       { kind: "mechanism", label: "Senere session bruger memory", detail: "Agent henter falsk memory og bruger det som troværdigt grundlag" },
-      { kind: "effect", label: "Vedvarende kompromittering", detail: "Påvirker alle fremtidige sessions for samme bruger eller på tværs — cross-tenant" },
+      { kind: "effect", label: "Vedvarende kompromittering", detail: "Påvirker alle fremtidige sessions for samme bruger eller på tværs - cross-tenant" },
     ],
   },
 };
@@ -1023,7 +1023,7 @@ function AttackChain({ subcategoryId }: { subcategoryId: string }) {
     <div className="mb-8 rounded-xl border border-primary/30 bg-primary/5 p-6">
       <div className="mb-1 flex items-center gap-2">
         <span className="rounded bg-primary px-1.5 py-0.5 text-[10px] font-bold uppercase text-primary-foreground">Værktøj</span>
-        <h3 className="font-display text-base font-semibold text-foreground">⚡ Attack chain — {data.title}</h3>
+        <h3 className="font-display text-base font-semibold text-foreground">⚡ Attack chain - {data.title}</h3>
       </div>
       {data.atlasRef && (
         <p className="mb-4 text-[11px] text-muted-foreground">Reference: {data.atlasRef}</p>
@@ -1043,7 +1043,7 @@ function AttackChain({ subcategoryId }: { subcategoryId: string }) {
         ))}
       </div>
       <p className="mt-4 text-[11px] text-muted-foreground">
-        Forsvar mod denne kæde kræver kontroller flere steder — ikke kun ved input. Se mitigeringsstrategierne nedenfor.
+        Forsvar mod denne kæde kræver kontroller flere steder - ikke kun ved input. Se mitigeringsstrategierne nedenfor.
       </p>
     </div>
   );
@@ -1081,7 +1081,7 @@ function ThreatActorAssetMatrix() {
       output: { level: "medium", tech: "Ikke-autoriseret brug af model" },
     },
     opportunist: {
-      training: { level: "low", tech: "Sjældent — kræver indre adgang" },
+      training: { level: "low", tech: "Sjældent - kræver indre adgang" },
       weights: { level: "high", tech: "Model extraction via API-distillation" },
       rag: { level: "high", tech: "Indirekte prompt injection via offentligt indhold" },
       prompt: { level: "high", tech: "Prompt extraction-angreb" },
@@ -1105,7 +1105,7 @@ function ThreatActorAssetMatrix() {
       output: { level: "high", tech: "Backdoored output via plugin / kompromitteret API" },
     },
     competitor: {
-      training: { level: "low", tech: "Sjældent — kræver indre adgang" },
+      training: { level: "low", tech: "Sjældent - kræver indre adgang" },
       weights: { level: "high", tech: "API reverse-engineering, behavior cloning" },
       rag: { level: "medium", tech: "Begrænset adgang" },
       prompt: { level: "high", tech: "Prompt extraction afslører konkurrencefordel" },
@@ -1136,7 +1136,7 @@ function ThreatActorAssetMatrix() {
         <h3 className="font-display text-lg font-semibold text-foreground">Trusselsaktør × AI-aktiv</h3>
       </div>
       <p className="mb-5 text-sm text-muted-foreground">
-        Hvem prøver at kompromittere hvad? Brug matrixen til at scope jeres threat modelling — ikke alle aktører er interesseret i alle aktiver, og forskellige aktører kræver forskellige forsvar. Hold musen over en celle for den konkrete teknik.
+        Hvem prøver at kompromittere hvad? Brug matrixen til at scope jeres threat modelling - ikke alle aktører er interesseret i alle aktiver, og forskellige aktører kræver forskellige forsvar. Hold musen over en celle for den konkrete teknik.
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-xs">
@@ -1274,60 +1274,60 @@ function MitigationMaturityRadar() {
       id: "detection",
       label: "Detection",
       levels: [
-        "Ad hoc — vi opdager problemer når brugere klager",
-        "Defineret — vi har monitoring på enkelte modeller",
-        "Styret — drift/anomaly-alarmer + jailbreak-classifier kører i prod",
-        "Optimeret — kontinuerlig threat-hunt, baseline-modeller, korreleret med SIEM",
+        "Ad hoc - vi opdager problemer når brugere klager",
+        "Defineret - vi har monitoring på enkelte modeller",
+        "Styret - drift/anomaly-alarmer + jailbreak-classifier kører i prod",
+        "Optimeret - kontinuerlig threat-hunt, baseline-modeller, korreleret med SIEM",
       ],
     },
     {
       id: "prevention",
       label: "Prevention",
       levels: [
-        "Ad hoc — guardrails er ikke systematiske",
-        "Defineret — tool-allowlists, input-sanitisering, scope-limits per agent",
-        "Styret — pre-execution policy engine, prompt-injection forsvar by design",
-        "Optimeret — adversarial testing i CI/CD, isolated sandbox-eksekvering",
+        "Ad hoc - guardrails er ikke systematiske",
+        "Defineret - tool-allowlists, input-sanitisering, scope-limits per agent",
+        "Styret - pre-execution policy engine, prompt-injection forsvar by design",
+        "Optimeret - adversarial testing i CI/CD, isolated sandbox-eksekvering",
       ],
     },
     {
       id: "response",
       label: "Response",
       levels: [
-        "Ad hoc — vi ringer bare til den der har tjansen",
-        "Defineret — vi har skrevet incident-runbook + kill switch findes",
-        "Styret — P1-P4 klassificering, tabletop-øvelse halvårligt",
-        "Optimeret — auto-suspend ved anomalier, fuld telemetri, RCA inden 30 dage",
+        "Ad hoc - vi ringer bare til den der har tjansen",
+        "Defineret - vi har skrevet incident-runbook + kill switch findes",
+        "Styret - P1-P4 klassificering, tabletop-øvelse halvårligt",
+        "Optimeret - auto-suspend ved anomalier, fuld telemetri, RCA inden 30 dage",
       ],
     },
     {
       id: "recovery",
       label: "Recovery",
       levels: [
-        "Ad hoc — vi håber det går",
-        "Defineret — fallback-flow er kendt (manuel proces)",
-        "Styret — automatisk rollback, model-version pinning, chaos-testet",
-        "Optimeret — kontinuerlig backup, region-failover, lessons-learned i evaluerings­suite",
+        "Ad hoc - vi håber det går",
+        "Defineret - fallback-flow er kendt (manuel proces)",
+        "Styret - automatisk rollback, model-version pinning, chaos-testet",
+        "Optimeret - kontinuerlig backup, region-failover, lessons-learned i evaluerings­suite",
       ],
     },
     {
       id: "training",
       label: "Træning",
       levels: [
-        "Ad hoc — folk lærer på egen hånd",
-        "Defineret — obligatorisk AI-literacy ved onboarding",
-        "Styret — rolle-baseret træning, certificering, dokumenteret dækningsgrad",
-        "Optimeret — red team-træning, agentic literacy, community of practice",
+        "Ad hoc - folk lærer på egen hånd",
+        "Defineret - obligatorisk AI-literacy ved onboarding",
+        "Styret - rolle-baseret træning, certificering, dokumenteret dækningsgrad",
+        "Optimeret - red team-træning, agentic literacy, community of practice",
       ],
     },
     {
       id: "governance",
       label: "Governance",
       levels: [
-        "Ad hoc — ingen klar ejer",
-        "Defineret — Risk Owner navngivet pr. system, AI-policy skrevet",
-        "Styret — AI Council mødes månedligt, audit trail, 3LoD-model",
-        "Optimeret — ekstern audit, ISO 42001-alignment, kontinuerlig modenhedstilsyn",
+        "Ad hoc - ingen klar ejer",
+        "Defineret - Risk Owner navngivet pr. system, AI-policy skrevet",
+        "Styret - AI Council mødes månedligt, audit trail, 3LoD-model",
+        "Optimeret - ekstern audit, ISO 42001-alignment, kontinuerlig modenhedstilsyn",
       ],
     },
   ];
@@ -1338,16 +1338,16 @@ function MitigationMaturityRadar() {
   };
 
   const totalAssessed = values.filter((v) => v > 0).length;
-  const avg = totalAssessed > 0 ? (values.reduce((a, b) => a + b, 0) / totalAssessed).toFixed(1) : "—";
+  const avg = totalAssessed > 0 ? (values.reduce((a, b) => a + b, 0) / totalAssessed).toFixed(1) : " - ";
 
   return (
     <div className="mb-8 rounded-xl border border-primary/30 bg-primary/5 p-6">
       <div className="mb-1 flex items-center gap-2">
         <span className="rounded bg-primary px-1.5 py-0.5 text-[10px] font-bold uppercase text-primary-foreground">Værktøj</span>
-        <h3 className="font-display text-lg font-semibold text-foreground">Mitigation maturity — selvassessment</h3>
+        <h3 className="font-display text-lg font-semibold text-foreground">Mitigation maturity - selvassessment</h3>
       </div>
       <p className="mb-5 text-sm text-muted-foreground">
-        Vurder jeres AI-sikkerhedsmodenhed på 6 dimensioner. Klik på et niveau under hver akse — radaret opdaterer live. Brug resultatet som baseline for jeres roadmap.
+        Vurder jeres AI-sikkerhedsmodenhed på 6 dimensioner. Klik på et niveau under hver akse - radaret opdaterer live. Brug resultatet som baseline for jeres roadmap.
       </p>
       <div className="grid gap-6 lg:grid-cols-[auto_1fr]">
         <div className="flex flex-col items-center gap-3">
@@ -1363,7 +1363,7 @@ function MitigationMaturityRadar() {
             <div key={axis.id}>
               <div className="mb-2 flex items-baseline justify-between">
                 <p className="font-display text-sm font-semibold text-foreground">{axis.label}</p>
-                <p className="text-[10px] text-muted-foreground">Niveau {values[i] || "—"}</p>
+                <p className="text-[10px] text-muted-foreground">Niveau {values[i] || " - "}</p>
               </div>
               <div className="flex gap-1.5">
                 {[1, 2, 3, 4].map((lvl) => {
@@ -1726,7 +1726,7 @@ function InlineNewsletterPrompt({ hook, topic }: { hook: string; topic: string }
     try {
       const formData = new FormData();
       formData.append("fields[email]", email);
-      formData.append("fields[source_website]", "ai-sikkerhed.dk"); // hidden — segments signups by site in MailerLite
+      formData.append("fields[source_website]", "ai-sikkerhed.dk"); // hidden - segments signups by site in MailerLite
       formData.append("ml-submit", "1");
       formData.append("anticsrf", "true");
       await fetch(MAILERLITE_ACTION, {
@@ -1750,7 +1750,7 @@ function InlineNewsletterPrompt({ hook, topic }: { hook: string; topic: string }
         </div>
         {status === "success" ? (
           <div className="rounded-md border border-success/30 bg-success/10 px-4 py-2 text-sm text-success">
-            ✓ Tilmeldt — tjek din indbakke
+            ✓ Tilmeldt - tjek din indbakke
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col gap-2 sm:flex-row md:w-auto md:max-w-sm">
@@ -1792,7 +1792,7 @@ function NewsletterCTA({ showBooking = true }: { showBooking?: boolean }) {
     try {
       const formData = new FormData();
       formData.append("fields[email]", email);
-      formData.append("fields[source_website]", "ai-sikkerhed.dk"); // hidden — segments signups by site in MailerLite
+      formData.append("fields[source_website]", "ai-sikkerhed.dk"); // hidden - segments signups by site in MailerLite
       formData.append("ml-submit", "1");
       formData.append("anticsrf", "true");
       await fetch(MAILERLITE_ACTION, {
@@ -1817,7 +1817,7 @@ function NewsletterCTA({ showBooking = true }: { showBooking?: boolean }) {
           </p>
           {status === "success" ? (
             <div className="mt-4 rounded-md border border-success/30 bg-success/10 p-4 text-sm text-success">
-              ✓ Tak! Du er nu tilmeldt — tjek din indbakke for bekræftelse.
+              ✓ Tak! Du er nu tilmeldt - tjek din indbakke for bekræftelse.
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="mt-4 flex flex-col gap-2 sm:flex-row">
@@ -1847,7 +1847,7 @@ function NewsletterCTA({ showBooking = true }: { showBooking?: boolean }) {
           <div className="rounded-xl border border-primary/30 bg-primary/5 p-6">
             <h3 className="font-display text-lg font-semibold text-foreground">🗓️ Book 30-min sparring</h3>
             <p className="mt-2 text-sm text-muted-foreground">
-              Konkret sparring om jeres AI-risikobillede — kortlægning, mitigeringer, governance, leverandørsikkerhed eller noget helt andet.
+              Konkret sparring om jeres AI-risikobillede - kortlægning, mitigeringer, governance, leverandørsikkerhed eller noget helt andet.
             </p>
             <a
               href={CALENDLY_URL}
@@ -1898,7 +1898,7 @@ function ToolsIndex({ onHome, onOpenTool }: { onHome: () => void; onOpenTool: (s
           <h1 className="font-display text-2xl font-bold text-foreground">Værktøjer</h1>
         </div>
         <p className="mt-3 max-w-2xl text-sm text-muted-foreground">
-          Interaktive værktøjer til AI-sikkerhed — risiko-matricer, trusselsmodellering og modenheds-selvvurdering. Hvert værktøj har sin egen side, så det kan deles direkte på LinkedIn, i mail eller i en præsentation.
+          Interaktive værktøjer til AI-sikkerhed - risiko-matricer, trusselsmodellering og modenheds-selvvurdering. Hvert værktøj har sin egen side, så det kan deles direkte på LinkedIn, i mail eller i en præsentation.
         </p>
       </div>
 
@@ -2033,7 +2033,7 @@ function AgenticView({
           </h1>
         </div>
         <p className="mt-3 max-w-3xl text-sm text-muted-foreground">
-          Et tværgående tema, ikke en selvstændig søjle: {total} risici relateret til autonome AI-agenter (værktøjsadgang, MCP/A2A, multi-agent, hukommelse) samlet ét sted — men grupperet efter de tre søjler, så du ser hvordan agent-risiko optræder i hver. Det vigtigste nye angrebsfelt i 2026.
+          Et tværgående tema, ikke en selvstændig søjle: {total} risici relateret til autonome AI-agenter (værktøjsadgang, MCP/A2A, multi-agent, hukommelse) samlet ét sted - men grupperet efter de tre søjler, så du ser hvordan agent-risiko optræder i hver. Det vigtigste nye angrebsfelt i 2026.
         </p>
       </div>
 
