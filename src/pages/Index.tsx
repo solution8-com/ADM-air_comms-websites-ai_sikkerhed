@@ -1,7 +1,8 @@
 import { useState, useMemo, useRef, useEffect, type FormEvent, type ComponentType } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
-import logo from "@/assets/logo.png";
 import { ExternalLink, ChevronRight, ChevronDown, Search, Wrench, ArrowLeft, Download, Copy } from "lucide-react";
+import { SiteWordmark } from "@/components/SiteWordmark";
+import { SiteFooter } from "@/components/SiteFooter";
 import {
   pillars,
   riskCategories,
@@ -338,7 +339,7 @@ const Index = () => {
             onClick={() => navigate("dashboard")}
             className="flex items-center gap-2 transition-opacity hover:opacity-80"
           >
-            <img src={logo} alt="AI Sikkerhed" className="h-14" />
+            <SiteWordmark />
           </button>
 
           <div className="flex items-center gap-4">
@@ -392,7 +393,7 @@ const Index = () => {
                 href={CALENDLY_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-opacity hover:opacity-90"
+                className="flex items-center gap-1.5 rounded-md bg-accent px-3 py-1.5 text-xs font-medium text-accent-foreground transition-opacity hover:opacity-90"
               >
                 Book et møde
               </a>
@@ -532,31 +533,7 @@ const Index = () => {
       <NewsletterCTA showBooking={view !== "subcategory"} />
 
       {/* Footer */}
-      <footer className="border-t border-border bg-card/50 py-6">
-        <div className="container mx-auto px-6 text-center text-xs text-muted-foreground">
-          <p>
-            Risikodata baseret på{" "}
-            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQw0Pk4uwdimbx8SGAXuAeDvTRP_0Hvtlamm1LYjWtP7oOEcVGFOCKXAeq81qscsamlqfcqdEPKZJke/pubhtml" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">
-              MIT AI Risk Repository
-            </a>{" "}
-            og{" "}
-            <a href="https://genai.owasp.org/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">
-              OWASP GenAI Security Project
-            </a>
-            . For alle detaljer, besøg de originale repositories.
-          </p>
-          <p className="mt-3">
-            En oversigt fra{" "}
-            <a href="https://ai-raadgivning.dk" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">AI Rådgivning</a>.
-          </p>
-          <p className="mt-3 text-muted-foreground/80">
-            Søsteroverblik:{" "}
-            <a href="https://www.ai-compliance.dk" className="text-primary underline underline-offset-2">AI Compliance</a>
-            {" · "}
-            <a href="https://www.ai-governance.dk" className="text-primary underline underline-offset-2">AI Governance</a>
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 };
@@ -1728,7 +1705,7 @@ function SubcategoryView({
           href={CALENDLY_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block rounded-md bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+          className="mt-4 inline-block rounded-md bg-accent px-5 py-2 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
         >
           Book 30-min sparring
         </a>
@@ -1876,7 +1853,7 @@ function NewsletterCTA({ showBooking = true }: { showBooking?: boolean }) {
               href={CALENDLY_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-block rounded-md bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              className="mt-4 inline-block rounded-md bg-accent px-5 py-2 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
             >
               Book et møde
             </a>
