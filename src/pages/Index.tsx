@@ -3,6 +3,7 @@ import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { ExternalLink, ChevronRight, ChevronDown, Search, Wrench, ArrowLeft, Download, Copy } from "lucide-react";
 import { SiteWordmark } from "@/components/SiteWordmark";
 import { SiteFooter } from "@/components/SiteFooter";
+import { BookingDialog } from "@/components/BookingDialog";
 import {
   pillars,
   riskCategories,
@@ -18,8 +19,6 @@ import {
 } from "@/data/riskData";
 
 type View = "dashboard" | "pillar" | "category" | "subcategory";
-
-const CALENDLY_URL = "https://calendly.com/ai-raadgivning_jacob/30min?month=2026-06";
 
 // Clickable example searches shown in the empty/no-results state.
 const SEARCH_SUGGESTIONS = ["prompt injection", "agentisk", "shadow AI", "MCP", "EchoLeak", "mitigering"];
@@ -189,6 +188,7 @@ const Index = () => {
   const routerNavigate = useNavigate();
   const location = useLocation();
   const [searchQuery, setSearchQuery] = useState("");
+  const [bookingOpen, setBookingOpen] = useState(false);
 
   // Tools route detection (literal /vaerktoejer segment)
   const isToolsRoute =
@@ -389,14 +389,13 @@ const Index = () => {
               >
                 OWASP GenAI <ExternalLink className="h-3 w-3" />
               </a>
-              <a
-                href={CALENDLY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
+                onClick={() => setBookingOpen(true)}
                 className="flex items-center gap-1.5 rounded-md bg-accent px-3 py-1.5 text-xs font-medium text-accent-foreground transition-opacity hover:opacity-90"
               >
                 Book et møde
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -524,16 +523,19 @@ const Index = () => {
             subcategory={selectedSubcategory}
             category={selectedCategory}
             onNavigate={navigate}
+            onBook={() => setBookingOpen(true)}
           />
         )}
       </main>
 
       {/* Newsletter + CTA strip - hide booking column on subcategory pages
           (they already have a contextual "Book sparring" card). */}
-      <NewsletterCTA showBooking={view !== "subcategory"} />
+      <NewsletterCTA showBooking={view !== "subcategory"} onBook={() => setBookingOpen(true)} />
 
       {/* Footer */}
       <SiteFooter />
+
+      <BookingDialog open={bookingOpen} onOpenChange={setBookingOpen} />
     </div>
   );
 };
@@ -1615,10 +1617,12 @@ function SubcategoryView({
   subcategory,
   category,
   onNavigate,
+  onBook,
 }: {
   subcategory: RiskSubcategory;
   category: RiskCategory;
   onNavigate: (v: View, p?: RiskPillar, c?: RiskCategory, s?: RiskSubcategory) => void;
+  onBook: () => void;
 }) {
   return (
     <div className="fade-in max-w-3xl">
@@ -1701,14 +1705,13 @@ function SubcategoryView({
         <p className="mt-2 text-sm text-muted-foreground">
           Book et 30-min sparringsmøde med SOLUTION8 - vi hjælper danske organisationer med at vurdere, mitigere og styre AI-risici i praksis.
         </p>
-        <a
-          href={CALENDLY_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          type="button"
+          onClick={onBook}
           className="mt-4 inline-block rounded-md bg-accent px-5 py-2 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
         >
           Book 30-min sparring
-        </a>
+        </button>
       </div>
     </div>
   );
@@ -1781,7 +1784,7 @@ function InlineNewsletterPrompt({ hook, topic }: { hook: string; topic: string }
 }
 
 // ── Newsletter + main CTA strip ──
-function NewsletterCTA({ showBooking = true }: { showBooking?: boolean }) {
+function NewsletterCTA({ showBooking = true, onBook }: { showBooking?: boolean; onBook: () => void }) {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [email, setEmail] = useState("");
 
@@ -1849,14 +1852,13 @@ function NewsletterCTA({ showBooking = true }: { showBooking?: boolean }) {
             <p className="mt-2 text-sm text-muted-foreground">
               Konkret sparring om jeres AI-risikobillede - kortlægning, mitigeringer, governance, leverandørsikkerhed eller noget helt andet.
             </p>
-            <a
-              href={CALENDLY_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              type="button"
+              onClick={onBook}
               className="mt-4 inline-block rounded-md bg-accent px-5 py-2 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
             >
               Book et møde
-            </a>
+            </button>
           </div>
         )}
       </div>
