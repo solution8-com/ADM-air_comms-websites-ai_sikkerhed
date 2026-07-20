@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-07-14T02:59:29.091Z",
+  "generatedAt": "2026-07-20T09:21:55.012Z",
   "items": [
     {
-      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-      "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+      "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
       "source": "The Hacker News",
-      "date": "2026-07-13T15:05:57.000Z"
+      "date": "2026-07-20T05:27:26.000Z"
     },
     {
-      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-      "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
       "source": "The Hacker News",
-      "date": "2026-07-13T13:49:48.000Z"
+      "date": "2026-07-17T17:12:23.000Z"
     },
     {
-      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-      "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+      "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
       "source": "The Hacker News",
-      "date": "2026-07-13T11:54:46.000Z"
+      "date": "2026-07-17T11:44:41.000Z"
     },
     {
-      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-      "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
+      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+      "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
       "source": "The Hacker News",
-      "date": "2026-07-13T11:37:05.000Z"
+      "date": "2026-07-16T11:32:28.000Z"
     },
     {
-      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-      "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
+      "link": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
       "source": "The Hacker News",
-      "date": "2026-07-13T11:02:33.000Z"
+      "date": "2026-07-16T10:10:00.000Z"
     },
     {
-      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-      "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
+      "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+      "link": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
       "source": "The Hacker News",
-      "date": "2026-07-09T12:26:58.000Z"
+      "date": "2026-07-16T08:42:31.000Z"
     },
     {
-      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-      "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
+      "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+      "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
       "source": "The Hacker News",
-      "date": "2026-07-09T07:21:06.000Z"
+      "date": "2026-07-15T18:43:08.000Z"
     },
     {
-      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
-      "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+      "link": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
       "source": "The Hacker News",
-      "date": "2026-07-09T05:15:02.000Z"
+      "date": "2026-07-15T11:50:01.000Z"
     }
   ]
 }
