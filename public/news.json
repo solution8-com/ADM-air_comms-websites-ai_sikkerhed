@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-07-27T09:58:25.921Z",
+  "generatedAt": "2026-08-03T09:53:02.465Z",
   "items": [
     {
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+      "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
       "source": "The Hacker News",
-      "date": "2026-07-24T11:53:55.000Z"
+      "date": "2026-07-31T06:41:44.000Z"
     },
     {
-      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-      "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+      "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
       "source": "The Hacker News",
-      "date": "2026-07-24T11:30:00.000Z"
+      "date": "2026-07-30T15:25:57.000Z"
     },
     {
-      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-      "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+      "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
       "source": "The Hacker News",
-      "date": "2026-07-24T10:15:29.000Z"
+      "date": "2026-07-30T11:54:49.000Z"
     },
     {
-      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-      "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+      "title": "The Network Has Become the Control Plane for AI Security",
+      "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
       "source": "The Hacker News",
-      "date": "2026-07-24T07:41:06.000Z"
+      "date": "2026-07-30T11:32:46.000Z"
     },
     {
-      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
       "source": "The Hacker News",
-      "date": "2026-07-23T15:02:07.000Z"
+      "date": "2026-07-29T15:39:30.000Z"
     },
     {
-      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-      "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
       "source": "The Hacker News",
-      "date": "2026-07-23T13:27:59.000Z"
+      "date": "2026-07-29T07:51:00.000Z"
     },
     {
-      "title": "The Fastest Path to AI Adoption Runs Through Security",
-      "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+      "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
       "source": "The Hacker News",
-      "date": "2026-07-22T11:58:00.000Z"
+      "date": "2026-07-28T18:59:07.000Z"
     },
     {
-      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-      "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+      "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
       "source": "The Hacker News",
-      "date": "2026-07-22T11:30:02.000Z"
+      "date": "2026-07-28T13:33:47.000Z"
     }
   ]
 }
