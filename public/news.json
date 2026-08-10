@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-08-03T09:53:02.465Z",
+  "generatedAt": "2026-08-10T07:48:01.698Z",
   "items": [
     {
-      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-      "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+      "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
       "source": "The Hacker News",
-      "date": "2026-07-31T06:41:44.000Z"
+      "date": "2026-08-10T05:50:03.000Z"
     },
     {
-      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+      "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
       "source": "The Hacker News",
-      "date": "2026-07-30T15:25:57.000Z"
+      "date": "2026-08-07T10:09:54.000Z"
     },
     {
-      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
-      "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
       "source": "The Hacker News",
-      "date": "2026-07-30T11:54:49.000Z"
+      "date": "2026-08-07T08:18:35.000Z"
     },
     {
-      "title": "The Network Has Become the Control Plane for AI Security",
-      "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
       "source": "The Hacker News",
-      "date": "2026-07-30T11:32:46.000Z"
+      "date": "2026-08-06T11:30:00.000Z"
     },
     {
-      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-      "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+      "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
       "source": "The Hacker News",
-      "date": "2026-07-29T15:39:30.000Z"
+      "date": "2026-08-05T18:33:47.000Z"
     },
     {
-      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-      "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+      "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
       "source": "The Hacker News",
-      "date": "2026-07-29T07:51:00.000Z"
+      "date": "2026-08-05T15:36:03.000Z"
     },
     {
-      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-      "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+      "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
       "source": "The Hacker News",
-      "date": "2026-07-28T18:59:07.000Z"
+      "date": "2026-08-05T15:14:05.000Z"
     },
     {
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
+      "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
       "source": "The Hacker News",
-      "date": "2026-07-28T13:33:47.000Z"
+      "date": "2026-08-05T07:53:50.000Z"
     }
   ]
 }
