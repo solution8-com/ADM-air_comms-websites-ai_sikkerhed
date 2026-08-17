@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-08-10T07:48:01.698Z",
+  "generatedAt": "2026-08-17T07:02:18.328Z",
   "items": [
+    {
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "source": "The Hacker News",
+      "date": "2026-08-12T11:47:38.000Z"
+    },
+    {
+      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11T16:47:44.000Z"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11T13:11:23.000Z"
+    },
+    {
+      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+      "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+      "source": "The Hacker News",
+      "date": "2026-08-11T10:24:00.000Z"
+    },
+    {
+      "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+      "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+      "source": "The Hacker News",
+      "date": "2026-08-10T17:29:17.000Z"
+    },
+    {
+      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+      "source": "The Hacker News",
+      "date": "2026-08-10T15:00:29.000Z"
+    },
+    {
+      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+      "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+      "source": "The Hacker News",
+      "date": "2026-08-10T13:19:58.000Z"
+    },
     {
       "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
       "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
       "source": "The Hacker News",
       "date": "2026-08-10T05:50:03.000Z"
-    },
-    {
-      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-      "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-      "source": "The Hacker News",
-      "date": "2026-08-07T10:09:54.000Z"
-    },
-    {
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-      "source": "The Hacker News",
-      "date": "2026-08-07T08:18:35.000Z"
-    },
-    {
-      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-      "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "source": "The Hacker News",
-      "date": "2026-08-06T11:30:00.000Z"
-    },
-    {
-      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-      "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-      "source": "The Hacker News",
-      "date": "2026-08-05T18:33:47.000Z"
-    },
-    {
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-      "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-      "source": "The Hacker News",
-      "date": "2026-08-05T15:36:03.000Z"
-    },
-    {
-      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
-      "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-      "source": "The Hacker News",
-      "date": "2026-08-05T15:14:05.000Z"
-    },
-    {
-      "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
-      "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
-      "source": "The Hacker News",
-      "date": "2026-08-05T07:53:50.000Z"
     }
   ]
 }
