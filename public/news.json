@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-08-24T07:04:43.893Z",
+  "generatedAt": "2026-08-31T13:08:04.654Z",
   "items": [
     {
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+      "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
       "source": "The Hacker News",
-      "date": "2026-08-21T18:53:00.000Z"
+      "date": "2026-08-31T11:47:24.000Z"
     },
     {
-      "title": "Wazuh and AI For Enhanced SOC Workflows",
-      "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+      "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
       "source": "The Hacker News",
-      "date": "2026-08-21T11:21:39.000Z"
+      "date": "2026-08-31T11:31:47.000Z"
     },
     {
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-      "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+      "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
       "source": "The Hacker News",
-      "date": "2026-08-20T17:23:48.000Z"
+      "date": "2026-08-27T18:36:19.000Z"
     },
     {
-      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-      "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+      "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
       "source": "The Hacker News",
-      "date": "2026-08-20T16:59:44.000Z"
+      "date": "2026-08-27T13:39:56.000Z"
     },
     {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+      "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+      "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
       "source": "The Hacker News",
-      "date": "2026-08-20T11:45:00.000Z"
+      "date": "2026-08-27T11:56:30.000Z"
     },
     {
-      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-      "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+      "title": "What the Data Says About AI in Security Operations in 2026",
+      "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
       "source": "The Hacker News",
-      "date": "2026-08-19T18:06:44.000Z"
+      "date": "2026-08-27T11:30:00.000Z"
     },
     {
-      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-      "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+      "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
       "source": "The Hacker News",
-      "date": "2026-08-18T17:47:22.000Z"
+      "date": "2026-08-26T11:36:49.000Z"
     },
     {
-      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
-      "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+      "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
       "source": "The Hacker News",
-      "date": "2026-08-18T12:38:36.000Z"
+      "date": "2026-08-26T10:27:23.000Z"
     }
   ]
 }
