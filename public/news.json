@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-08-31T13:08:04.654Z",
+  "generatedAt": "2026-09-07T11:59:34.067Z",
   "items": [
     {
-      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-      "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+      "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+      "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
       "source": "The Hacker News",
-      "date": "2026-08-31T11:47:24.000Z"
+      "date": "2026-09-05T07:55:10.000Z"
     },
     {
-      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-      "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+      "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
       "source": "The Hacker News",
-      "date": "2026-08-31T11:31:47.000Z"
+      "date": "2026-09-04T06:47:52.000Z"
     },
     {
-      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-      "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
       "source": "The Hacker News",
-      "date": "2026-08-27T18:36:19.000Z"
+      "date": "2026-09-02T18:27:49.000Z"
     },
     {
-      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-      "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
       "source": "The Hacker News",
-      "date": "2026-08-27T13:39:56.000Z"
+      "date": "2026-09-02T14:06:59.000Z"
     },
     {
-      "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-      "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
       "source": "The Hacker News",
-      "date": "2026-08-27T11:56:30.000Z"
+      "date": "2026-09-02T11:30:00.000Z"
     },
     {
-      "title": "What the Data Says About AI in Security Operations in 2026",
-      "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+      "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
       "source": "The Hacker News",
-      "date": "2026-08-27T11:30:00.000Z"
+      "date": "2026-09-02T07:47:13.000Z"
     },
     {
-      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-      "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
-      "source": "The Hacker News",
-      "date": "2026-08-26T11:36:49.000Z"
+      "title": "OWASP GenAI Security Project Unveils 2026 Top 10 for LLM Applications, New Agent Control Standard and Sponsors as Community Tops 30,000 Members",
+      "link": "https://genai.owasp.org/2026/09/01/owasp-genai-security-project-unveils-2026-top-10-for-llm-applications-new-agent-control-standard-and-sponsors-as-community-tops-30000-members/?utm_source=rss&utm_medium=rss&utm_campaign=owasp-genai-security-project-unveils-2026-top-10-for-llm-applications-new-agent-control-standard-and-sponsors-as-community-tops-30000-members",
+      "source": "OWASP GenAI",
+      "date": "2026-09-02T04:59:10.000Z"
     },
     {
-      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
-      "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+      "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
       "source": "The Hacker News",
-      "date": "2026-08-26T10:27:23.000Z"
+      "date": "2026-09-01T09:05:30.000Z"
     }
   ]
 }
