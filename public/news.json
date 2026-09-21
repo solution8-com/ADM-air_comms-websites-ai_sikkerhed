@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-09-14T12:15:06.536Z",
+  "generatedAt": "2026-09-21T12:23:19.274Z",
   "items": [
     {
-      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-      "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
       "source": "The Hacker News",
-      "date": "2026-09-12T10:24:44.000Z"
+      "date": "2026-09-19T18:36:53.000Z"
     },
     {
-      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-      "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
       "source": "The Hacker News",
-      "date": "2026-09-12T09:07:56.000Z"
+      "date": "2026-09-19T07:51:34.000Z"
     },
     {
-      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-      "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+      "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
       "source": "The Hacker News",
-      "date": "2026-09-11T16:15:29.000Z"
+      "date": "2026-09-18T12:47:04.000Z"
     },
     {
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
       "source": "The Hacker News",
-      "date": "2026-09-11T14:29:47.000Z"
+      "date": "2026-09-18T11:01:01.000Z"
     },
     {
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
       "source": "The Hacker News",
-      "date": "2026-09-11T14:10:20.000Z"
+      "date": "2026-09-18T09:18:03.000Z"
     },
     {
-      "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
-      "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+      "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
       "source": "The Hacker News",
-      "date": "2026-09-10T11:41:53.000Z"
+      "date": "2026-09-17T10:50:53.000Z"
     },
     {
-      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-      "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+      "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
       "source": "The Hacker News",
-      "date": "2026-09-10T07:04:01.000Z"
+      "date": "2026-09-17T09:53:38.000Z"
     },
     {
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+      "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
       "source": "The Hacker News",
-      "date": "2026-09-09T14:23:55.000Z"
+      "date": "2026-09-16T14:36:44.000Z"
     }
   ]
 }
