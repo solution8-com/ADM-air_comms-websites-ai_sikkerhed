@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-09-21T12:23:19.274Z",
+  "generatedAt": "2026-09-28T13:20:26.191Z",
   "items": [
     {
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+      "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
       "source": "The Hacker News",
-      "date": "2026-09-19T18:36:53.000Z"
+      "date": "2026-09-28T11:58:00.000Z"
     },
     {
-      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-      "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
       "source": "The Hacker News",
-      "date": "2026-09-19T07:51:34.000Z"
+      "date": "2026-09-28T11:46:00.000Z"
     },
     {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
       "source": "The Hacker News",
-      "date": "2026-09-18T12:47:04.000Z"
+      "date": "2026-09-26T10:30:00.000Z"
     },
     {
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
       "source": "The Hacker News",
-      "date": "2026-09-18T11:01:01.000Z"
+      "date": "2026-09-24T17:52:43.000Z"
     },
     {
-      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
       "source": "The Hacker News",
-      "date": "2026-09-18T09:18:03.000Z"
+      "date": "2026-09-24T11:00:00.000Z"
     },
     {
-      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-      "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
       "source": "The Hacker News",
-      "date": "2026-09-17T10:50:53.000Z"
+      "date": "2026-09-24T07:07:25.000Z"
     },
     {
-      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-      "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
       "source": "The Hacker News",
-      "date": "2026-09-17T09:53:38.000Z"
+      "date": "2026-09-23T14:17:58.000Z"
     },
     {
-      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
-      "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+      "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
       "source": "The Hacker News",
-      "date": "2026-09-16T14:36:44.000Z"
+      "date": "2026-09-23T11:47:19.000Z"
     }
   ]
 }
